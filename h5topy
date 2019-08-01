@@ -1,0 +1,5 @@
+#!/bin/bash
+~/anaconda/bin/python h5tojson.py  $1
+~/anaconda/bin/python h5json2py.py $1.json $1.py
+
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+java -cp /home/ec2-user/xml2h5/saxon9he.jar net.sf.saxon.Transform -t -s:$2 -xsl:$1 -o:$2.$3
+# Use nccopy http://www.unidata.ucar.edu/software/thredds/current/netcdf-java/reference/manPages.html#nccopy
+if [ $3 == 'ncml' ]; then
+    java -Xmx1g -classpath /home/ec2-user/xml2h5/netcdfAll-4.6.10.jar ucar.nc2.write.Nccopy -i $2.$3 -o $2.h5 -f netcdf4
+fi
+
+
+
+

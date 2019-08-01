@@ -1,0 +1,1090 @@
+{
+    "apiVersion": "1.0.0", 
+    "datasets": {
+        "f2b761c2-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/QualityFlag"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b77dce-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/ReySeaSurfaceTemperature"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b79e62-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/chiSquared"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_I16LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b7bb90-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/cloudWaterPath"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b7d832-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/columnarCloudLiquidWater"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b7f420-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/columnarWaterVapor"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b8111c-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/convectPrecipitation"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b82e54-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/freezingHeight"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b84bdc-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/iceWaterPath"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b867d4-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/landAmbiguousFlag"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b88534-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/landScreenFlag"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b8a29e-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/oceanExtendedDbase"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b8bfcc-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/oceanSearchRadius"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b8dba6-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/pixelStatus"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b8f910-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/probabilityOfPrecip"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b91666-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/rainWaterPath"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b93416-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/sunGlintAngle"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b95068-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/surfacePrecipitation"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b96db4-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/surfaceRain"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b98b5a-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/surfaceType"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_STD_U8LE", 
+                "class": "H5T_INTEGER"
+            }
+        }, 
+        "f2b9a86a-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields/windSpeed"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b9e0a0-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Geolocation Fields/Latitude"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2b9fe14-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Geolocation Fields/Longitude"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976, 
+                    486
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F32LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2ba1b42-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Geolocation Fields/Time"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SIMPLE", 
+                "dims": [
+                    1976
+                ]
+            }, 
+            "type": {
+                "base": "H5T_IEEE_F64LE", 
+                "class": "H5T_FLOAT"
+            }
+        }, 
+        "f2ba52d8-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS INFORMATION/CoreMetadata.0"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SCALAR"
+            }, 
+            "type": {
+                "charSet": "H5T_CSET_ASCII", 
+                "class": "H5T_STRING", 
+                "length": 9101, 
+                "order": "H5T_ORDER_NONE", 
+                "strPad": "H5T_STR_NULLPAD"
+            }
+        }, 
+        "f2ba70ce-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS INFORMATION/StructMetadata.0"
+            ], 
+            "creationProperties": {
+                "allocTime": "H5D_ALLOC_TIME_LATE", 
+                "fillTime": "H5D_FILL_TIME_IFSET", 
+                "layout": {
+                    "class": "H5D_CONTIGUOUS"
+                }
+            }, 
+            "shape": {
+                "class": "H5S_SCALAR"
+            }, 
+            "type": {
+                "charSet": "H5T_CSET_ASCII", 
+                "class": "H5T_STRING", 
+                "length": 32000, 
+                "order": "H5T_ORDER_NONE", 
+                "strPad": "H5T_STR_NULLPAD"
+            }
+        }
+    }, 
+    "groups": {
+        "f2b50bd4-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/"
+            ], 
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "groups", 
+                    "id": "f2b558a0-36f0-11e5-b64f-005056008d34", 
+                    "title": "HDFEOS"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "groups", 
+                    "id": "f2ba35d2-36f0-11e5-b64f-005056008d34", 
+                    "title": "HDFEOS INFORMATION"
+                }
+            ]
+        }, 
+        "f2b558a0-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS"
+            ], 
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "groups", 
+                    "id": "f2b57326-36f0-11e5-b64f-005056008d34", 
+                    "title": "ADDITIONAL"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "groups", 
+                    "id": "f2b5a508-36f0-11e5-b64f-005056008d34", 
+                    "title": "SWATHS"
+                }
+            ]
+        }, 
+        "f2b57326-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/ADDITIONAL"
+            ], 
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "groups", 
+                    "id": "f2b58cc6-36f0-11e5-b64f-005056008d34", 
+                    "title": "FILE_ATTRIBUTES"
+                }
+            ]
+        }, 
+        "f2b58cc6-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/ADDITIONAL/FILE_ATTRIBUTES"
+            ]
+        }, 
+        "f2b5a508-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS"
+            ], 
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "groups", 
+                    "id": "f2b7239c-36f0-11e5-b64f-005056008d34", 
+                    "title": "GPROF2010V2"
+                }
+            ]
+        }, 
+        "f2b7239c-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2"
+            ], 
+            "attributes": [
+                {
+                    "name": "Satellite", 
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    }, 
+                    "type": {
+                        "charSet": "H5T_CSET_ASCII", 
+                        "class": "H5T_STRING", 
+                        "length": 10, 
+                        "order": "H5T_ORDER_NONE", 
+                        "strPad": "H5T_STR_NULLPAD"
+                    }, 
+                    "value": "GCOM-W1   "
+                }, 
+                {
+                    "name": "Algorithm Version", 
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    }, 
+                    "type": {
+                        "charSet": "H5T_CSET_ASCII", 
+                        "class": "H5T_STRING", 
+                        "length": 10, 
+                        "order": "H5T_ORDER_NONE", 
+                        "strPad": "H5T_STR_NULLPAD"
+                    }, 
+                    "value": "V2.AM2.NRT"
+                }, 
+                {
+                    "name": "Preprocessor Version", 
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    }, 
+                    "type": {
+                        "charSet": "H5T_CSET_ASCII", 
+                        "class": "H5T_STRING", 
+                        "length": 22, 
+                        "order": "H5T_ORDER_NONE", 
+                        "strPad": "H5T_STR_NULLPAD"
+                    }, 
+                    "value": "AM2_L1R_1408        AM"
+                }, 
+                {
+                    "name": "Ocean Database", 
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    }, 
+                    "type": {
+                        "charSet": "H5T_CSET_ASCII", 
+                        "class": "H5T_STRING", 
+                        "length": 100, 
+                        "order": "H5T_ORDER_NONE", 
+                        "strPad": "H5T_STR_NULLPAD"
+                    }, 
+                    "value": "AMSR2_V2.dtb                                                                                        "
+                }, 
+                {
+                    "name": "Land Database", 
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    }, 
+                    "type": {
+                        "charSet": "H5T_CSET_ASCII", 
+                        "class": "H5T_STRING", 
+                        "length": 100, 
+                        "order": "H5T_ORDER_NONE", 
+                        "strPad": "H5T_STR_NULLPAD"
+                    }, 
+                    "value": "AMErainstr_land.dtb                                                                                 "
+                }, 
+                {
+                    "name": "Coast Database", 
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    }, 
+                    "type": {
+                        "charSet": "H5T_CSET_ASCII", 
+                        "class": "H5T_STRING", 
+                        "length": 100, 
+                        "order": "H5T_ORDER_NONE", 
+                        "strPad": "H5T_STR_NULLPAD"
+                    }, 
+                    "value": "                                                                                                    "
+                }, 
+                {
+                    "name": "Radiometer File", 
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    }, 
+                    "type": {
+                        "charSet": "H5T_CSET_ASCII", 
+                        "class": "H5T_STRING", 
+                        "length": 100, 
+                        "order": "H5T_ORDER_NONE", 
+                        "strPad": "H5T_STR_NULLPAD"
+                    }, 
+                    "value": "GW1AM2_201504270033_187D_L1SGRTBR_2210210.h5                                                        "
+                }, 
+                {
+                    "name": "Start Date", 
+                    "shape": {
+                        "class": "H5S_SIMPLE", 
+                        "dims": [
+                            6
+                        ]
+                    }, 
+                    "type": {
+                        "base": "H5T_STD_I16LE", 
+                        "class": "H5T_INTEGER"
+                    }, 
+                    "value": [
+                        2015, 
+                        4, 
+                        27, 
+                        0, 
+                        33, 
+                        10
+                    ]
+                }, 
+                {
+                    "name": "File Creation Date", 
+                    "shape": {
+                        "class": "H5S_SIMPLE", 
+                        "dims": [
+                            6
+                        ]
+                    }, 
+                    "type": {
+                        "base": "H5T_STD_I16LE", 
+                        "class": "H5T_INTEGER"
+                    }, 
+                    "value": [
+                        2015, 
+                        4, 
+                        26, 
+                        22, 
+                        6, 
+                        49
+                    ]
+                }, 
+                {
+                    "name": "Orbit Number", 
+                    "shape": {
+                        "class": "H5S_SIMPLE", 
+                        "dims": [
+                            1
+                        ]
+                    }, 
+                    "type": {
+                        "base": "H5T_STD_I32LE", 
+                        "class": "H5T_INTEGER"
+                    }, 
+                    "value": [
+                        15650
+                    ]
+                }, 
+                {
+                    "name": "Missing Value", 
+                    "shape": {
+                        "class": "H5S_SIMPLE", 
+                        "dims": [
+                            1
+                        ]
+                    }, 
+                    "type": {
+                        "base": "H5T_IEEE_F32LE", 
+                        "class": "H5T_FLOAT"
+                    }, 
+                    "value": [
+                        -9999.900390625
+                    ]
+                }, 
+                {
+                    "name": "Number of Scans", 
+                    "shape": {
+                        "class": "H5S_SIMPLE", 
+                        "dims": [
+                            1
+                        ]
+                    }, 
+                    "type": {
+                        "base": "H5T_STD_I16LE", 
+                        "class": "H5T_INTEGER"
+                    }, 
+                    "value": [
+                        1976
+                    ]
+                }, 
+                {
+                    "name": "Pixels per scan", 
+                    "shape": {
+                        "class": "H5S_SIMPLE", 
+                        "dims": [
+                            1
+                        ]
+                    }, 
+                    "type": {
+                        "base": "H5T_STD_I16LE", 
+                        "class": "H5T_INTEGER"
+                    }, 
+                    "value": [
+                        486
+                    ]
+                }
+            ], 
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "groups", 
+                    "id": "f2b73ddc-36f0-11e5-b64f-005056008d34", 
+                    "title": "Data Fields"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "groups", 
+                    "id": "f2b9c3a4-36f0-11e5-b64f-005056008d34", 
+                    "title": "Geolocation Fields"
+                }
+            ]
+        }, 
+        "f2b73ddc-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Data Fields"
+            ], 
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b761c2-36f0-11e5-b64f-005056008d34", 
+                    "title": "QualityFlag"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b77dce-36f0-11e5-b64f-005056008d34", 
+                    "title": "ReySeaSurfaceTemperature"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b79e62-36f0-11e5-b64f-005056008d34", 
+                    "title": "chiSquared"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b7bb90-36f0-11e5-b64f-005056008d34", 
+                    "title": "cloudWaterPath"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b7d832-36f0-11e5-b64f-005056008d34", 
+                    "title": "columnarCloudLiquidWater"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b7f420-36f0-11e5-b64f-005056008d34", 
+                    "title": "columnarWaterVapor"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b8111c-36f0-11e5-b64f-005056008d34", 
+                    "title": "convectPrecipitation"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b82e54-36f0-11e5-b64f-005056008d34", 
+                    "title": "freezingHeight"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b84bdc-36f0-11e5-b64f-005056008d34", 
+                    "title": "iceWaterPath"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b867d4-36f0-11e5-b64f-005056008d34", 
+                    "title": "landAmbiguousFlag"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b88534-36f0-11e5-b64f-005056008d34", 
+                    "title": "landScreenFlag"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b8a29e-36f0-11e5-b64f-005056008d34", 
+                    "title": "oceanExtendedDbase"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b8bfcc-36f0-11e5-b64f-005056008d34", 
+                    "title": "oceanSearchRadius"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b8dba6-36f0-11e5-b64f-005056008d34", 
+                    "title": "pixelStatus"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b8f910-36f0-11e5-b64f-005056008d34", 
+                    "title": "probabilityOfPrecip"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b91666-36f0-11e5-b64f-005056008d34", 
+                    "title": "rainWaterPath"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b93416-36f0-11e5-b64f-005056008d34", 
+                    "title": "sunGlintAngle"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b95068-36f0-11e5-b64f-005056008d34", 
+                    "title": "surfacePrecipitation"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b96db4-36f0-11e5-b64f-005056008d34", 
+                    "title": "surfaceRain"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b98b5a-36f0-11e5-b64f-005056008d34", 
+                    "title": "surfaceType"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b9a86a-36f0-11e5-b64f-005056008d34", 
+                    "title": "windSpeed"
+                }
+            ]
+        }, 
+        "f2b9c3a4-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS/SWATHS/GPROF2010V2/Geolocation Fields"
+            ], 
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b9e0a0-36f0-11e5-b64f-005056008d34", 
+                    "title": "Latitude"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2b9fe14-36f0-11e5-b64f-005056008d34", 
+                    "title": "Longitude"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2ba1b42-36f0-11e5-b64f-005056008d34", 
+                    "title": "Time"
+                }
+            ]
+        }, 
+        "f2ba35d2-36f0-11e5-b64f-005056008d34": {
+            "alias": [
+                "/HDFEOS INFORMATION"
+            ], 
+            "attributes": [
+                {
+                    "name": "HDFEOSVersion", 
+                    "shape": {
+                        "class": "H5S_SCALAR"
+                    }, 
+                    "type": {
+                        "charSet": "H5T_CSET_ASCII", 
+                        "class": "H5T_STRING", 
+                        "length": 32, 
+                        "order": "H5T_ORDER_NONE", 
+                        "strPad": "H5T_STR_NULLPAD"
+                    }, 
+                    "value": "HDFEOS_5.1.15"
+                }
+            ], 
+            "links": [
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2ba52d8-36f0-11e5-b64f-005056008d34", 
+                    "title": "CoreMetadata.0"
+                }, 
+                {
+                    "class": "H5L_TYPE_HARD", 
+                    "collection": "datasets", 
+                    "id": "f2ba70ce-36f0-11e5-b64f-005056008d34", 
+                    "title": "StructMetadata.0"
+                }
+            ]
+        }
+    }, 
+    "root": "f2b50bd4-36f0-11e5-b64f-005056008d34"
+}

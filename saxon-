@@ -1,0 +1,9 @@
+#!/bin/bash
+java -cp /home/ec2-user/xml2h5/saxon9he.jar net.sf.saxon.Transform -t -s:$1 -xsl:ISO-12NCML.xsl -o:$1.ncml
+# ncks 
+# java -Xmx1g -classpath ./netcdfAll-4.3.jar ucar.nc2.dataset.NetcdfDataset -in a.ncml -out b.nc
+# Use nccopy http://www.unidata.ucar.edu/software/thredds/current/netcdf-java/reference/manPages.html#nccopy
+java -Xmx1g -classpath /home/ec2-user/xml2h5/netcdfAll-4.6.10.jar ucar.nc2.write.Nccopy -i $1.ncml -o $1.h5 -f netcdf4
+
+
+
